@@ -19,10 +19,10 @@ import (
 	"cloud.google.com/go/monitoring/apiv3/v2/monitoringpb"
 	cloudtracepb "cloud.google.com/go/trace/apiv1/tracepb"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/resource"
+	
+	"framework"
+	"components/cluster"
+	"resource"
 )
 
 // Instance represents a deployed Stackdriver app instance in a Kubernetes cluster.

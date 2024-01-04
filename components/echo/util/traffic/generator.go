@@ -17,9 +17,9 @@ package traffic
 import (
 	"time"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/check"
+	
+	"components/echo"
+	"components/echo/check"
 )
 
 const (

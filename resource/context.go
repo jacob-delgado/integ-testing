@@ -15,10 +15,10 @@
 package resource
 
 import (
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/resource/config"
-	"istio.io/istio/pkg/test/framework/resource/config/cleanup"
-	"istio.io/istio/pkg/test/util/yml"
+	"components/cluster"
+	"resource/config"
+	"resource/config/cleanup"
+	"util/yml"
 )
 
 // Context is the core context interface that is used by resources.

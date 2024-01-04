@@ -23,11 +23,11 @@ import (
 	"k8s.io/apimachinery/pkg/version"
 
 	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/framework/config"
-	"istio.io/istio/pkg/test/scopes"
+	"components/cluster"
+	"components/echo"
+	"components/namespace"
+	"config"
+	"scopes"
 )
 
 func init() {

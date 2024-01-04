@@ -27,9 +27,9 @@ import (
 	proxyproto "github.com/pires/go-proxyproto"
 
 	"istio.io/istio/pkg/hbone"
-	"istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/echo/proto"
+	"echo"
+	"echo/common"
+	"echo/proto"
 )
 
 var _ protocol = &tcpProtocol{}

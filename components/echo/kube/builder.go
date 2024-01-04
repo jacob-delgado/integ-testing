@@ -17,9 +17,9 @@ package kube
 import (
 	"github.com/hashicorp/go-multierror"
 
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/resource"
+	"components/cluster"
+	"components/echo"
+	"resource"
 )
 
 func init() {

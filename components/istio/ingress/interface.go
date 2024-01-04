@@ -17,8 +17,8 @@ package ingress
 import (
 	"net/netip"
 
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/echo"
+	"components/cluster"
+	"components/echo"
 )
 
 type Instances []Instance

@@ -26,17 +26,17 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
 	"istio.io/istio/pkg/kube/inject"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework/components/ambient"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/kube"
-	_ "istio.io/istio/pkg/test/framework/components/echo/staticvm" // force registraton of factory func
-	"istio.io/istio/pkg/test/framework/components/istio"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/framework/resource/config/apply"
-	"istio.io/istio/pkg/test/scopes"
+	
+	"components/ambient"
+	"components/cluster"
+	"components/echo"
+	"components/echo/kube"
+	_ "components/echo/staticvm" // force registraton of factory func
+	"components/istio"
+	"components/namespace"
+	"resource"
+	"resource/config/apply"
+	"scopes"
 	"istio.io/istio/pkg/util/sets"
 )
 

@@ -32,7 +32,7 @@ import (
 	ltype "google.golang.org/genproto/googleapis/logging/type"
 
 	md "istio.io/istio/pkg/bootstrap/platform"
-	"istio.io/istio/pkg/test/framework/resource"
+	"resource"
 )
 
 type realStackdriver struct {

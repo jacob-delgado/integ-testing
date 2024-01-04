@@ -24,7 +24,7 @@ import (
 	"istio.io/istio/pkg/kube"
 	"istio.io/istio/pkg/kube/controllers"
 	"istio.io/istio/pkg/queue"
-	"istio.io/istio/pkg/test/framework/components/echo"
+	"components/echo"
 )
 
 var _ cache.Controller = &podController{}

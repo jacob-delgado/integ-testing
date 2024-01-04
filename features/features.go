@@ -21,7 +21,7 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/pkg/log"
+	"log"
 	"istio.io/istio/pkg/test/env"
 )
 

@@ -21,7 +21,7 @@ import (
 	"strings"
 
 	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/test/framework/config"
+	"config"
 )
 
 var _ config.Value = &RevVerMap{}

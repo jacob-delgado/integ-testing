@@ -22,9 +22,9 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/config"
-	"istio.io/istio/pkg/test/util/file"
+	"components/echo"
+	"config"
+	"util/file"
 )
 
 var additionalConfigs = &configs{}

@@ -19,7 +19,7 @@ import (
 	"io"
 
 	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/test/echo/common"
+	"echo/common"
 )
 
 // IsServerReadyFunc is a function that indicates whether the server is currently ready to handle traffic.

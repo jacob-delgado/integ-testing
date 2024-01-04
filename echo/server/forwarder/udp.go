@@ -23,9 +23,9 @@ import (
 	"net/http"
 	"strings"
 
-	"istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/echo/proto"
+	"echo"
+	"echo/common"
+	"echo/proto"
 )
 
 var _ protocol = &udpProtocol{}

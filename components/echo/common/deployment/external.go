@@ -18,15 +18,15 @@ import (
 	"path"
 	"strconv"
 
-	"istio.io/istio/pkg/test/echo/common"
+	"echo/common"
 	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/common/ports"
-	"istio.io/istio/pkg/test/framework/components/echo/deployment"
-	"istio.io/istio/pkg/test/framework/components/echo/match"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/util/file"
+	"components/echo"
+	"components/echo/common/ports"
+	"components/echo/deployment"
+	"components/echo/match"
+	"components/namespace"
+	"resource"
+	"util/file"
 )
 
 const (

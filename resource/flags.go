@@ -20,10 +20,10 @@ import (
 	"os"
 	"strings"
 
-	"istio.io/istio/pkg/log"
+	"log"
 	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/framework/config"
-	"istio.io/istio/pkg/test/framework/label"
+	"config"
+	"label"
 )
 
 var settingsFromCommandLine = DefaultSettings()

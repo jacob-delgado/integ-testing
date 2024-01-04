@@ -25,10 +25,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
 	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/framework/resource/config/apply"
-	"istio.io/istio/pkg/test/util/retry"
+	"framework"
+	"resource"
+	"resource/config/apply"
+	"util/retry"
 )
 
 // SupportsGatewayAPI checks if the gateway API is supported.

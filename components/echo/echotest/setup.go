@@ -15,9 +15,9 @@
 package echotest
 
 import (
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/scopes"
+	"framework"
+	"components/echo"
+	"scopes"
 )
 
 type (

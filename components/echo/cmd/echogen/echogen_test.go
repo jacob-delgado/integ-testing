@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"istio.io/istio/pilot/test/util"
-	"istio.io/istio/pkg/test/framework/config"
+	"config"
 )
 
 const (

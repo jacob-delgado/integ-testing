@@ -23,12 +23,12 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"gopkg.in/yaml.v3"
 
-	"istio.io/istio/pkg/log"
+	"log"
 	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/framework/features"
-	"istio.io/istio/pkg/test/framework/label"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/scopes"
+	"features"
+	"label"
+	"resource"
+	"scopes"
 	"istio.io/istio/pkg/util/sets"
 )
 

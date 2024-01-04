@@ -19,7 +19,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"istio.io/istio/pkg/test/framework/components/namespace"
+	"components/namespace"
 )
 
 func TestParseConfigs(t *testing.T) {

@@ -41,11 +41,11 @@ import (
 	"google.golang.org/grpc/xds"
 
 	"istio.io/istio/pkg/env"
-	"istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/echo/proto"
-	"istio.io/istio/pkg/test/echo/server/forwarder"
-	"istio.io/istio/pkg/test/util/retry"
+	"echo"
+	"echo/common"
+	"echo/proto"
+	"echo/server/forwarder"
+	"util/retry"
 )
 
 var _ Instance = &grpcInstance{}

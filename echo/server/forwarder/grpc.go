@@ -28,9 +28,9 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/metadata"
 
-	"istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/echo/proto"
+	"echo"
+	"echo/common"
+	"echo/proto"
 )
 
 var _ protocol = &grpcProtocol{}

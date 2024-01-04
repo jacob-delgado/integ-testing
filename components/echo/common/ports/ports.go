@@ -16,7 +16,7 @@ package ports
 
 import (
 	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/test/framework/components/echo"
+	"components/echo"
 )
 
 // Port names.

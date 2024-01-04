@@ -15,12 +15,12 @@
 package config
 
 import (
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework/components/echo/config/param"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/util/file"
-	"istio.io/istio/pkg/test/util/tmpl"
-	"istio.io/istio/pkg/test/util/yml"
+	
+	"components/echo/config/param"
+	"components/namespace"
+	"util/file"
+	"util/tmpl"
+	"util/yml"
 )
 
 // Source of YAML text.

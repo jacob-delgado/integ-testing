@@ -15,7 +15,7 @@
 package cluster
 
 import (
-	"istio.io/istio/pkg/test/framework/config"
+	"config"
 )
 
 type Kind string

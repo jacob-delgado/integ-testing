@@ -24,10 +24,10 @@ import (
 	corev1 "k8s.io/api/core/v1"
 
 	"istio.io/istio/pkg/config/protocol"
-	echoCommon "istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/util/retry"
+	echoCommon "echo/common"
+	"components/echo"
+	"resource"
+	"util/retry"
 )
 
 var (

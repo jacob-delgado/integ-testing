@@ -24,12 +24,12 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/environment/kube"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/retry"
-	"istio.io/istio/pkg/test/util/yml"
+	"components/cluster"
+	"components/environment/kube"
+	"resource"
+	"scopes"
+	"util/retry"
+	"util/yml"
 )
 
 var dummyValidationVirtualServiceTemplate = `

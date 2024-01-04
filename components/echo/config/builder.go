@@ -19,14 +19,14 @@ import (
 	"reflect"
 	"time"
 
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/config/param"
-	"istio.io/istio/pkg/test/framework/components/istio"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/framework/resource/config"
-	"istio.io/istio/pkg/test/framework/resource/config/apply"
-	"istio.io/istio/pkg/test/scopes"
+	"framework"
+	"components/echo"
+	"components/echo/config/param"
+	"components/istio"
+	"components/namespace"
+	"resource/config"
+	"resource/config/apply"
+	"scopes"
 	"istio.io/istio/pkg/util/sets"
 )
 

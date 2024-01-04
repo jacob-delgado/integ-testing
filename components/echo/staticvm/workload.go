@@ -21,11 +21,11 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"istio.io/istio/pkg/test"
-	echoClient "istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/echo"
+	
+	echoClient "echo"
+	"echo/common"
+	"components/cluster"
+	"components/echo"
 )
 
 var _ echo.Workload = &workload{}

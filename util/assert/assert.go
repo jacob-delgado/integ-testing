@@ -25,8 +25,8 @@ import (
 	"google.golang.org/protobuf/testing/protocmp"
 
 	"istio.io/istio/pkg/ptr"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/retry"
+	
+	"util/retry"
 )
 
 var compareErrors = cmp.Comparer(func(x, y error) bool {

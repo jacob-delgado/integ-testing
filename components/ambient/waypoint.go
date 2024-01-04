@@ -22,13 +22,13 @@ import (
 
 	"istio.io/istio/pkg/config/constants"
 	istioKube "istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/crd"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/istioctl"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/framework/resource"
-	testKube "istio.io/istio/pkg/test/kube"
+	"framework"
+	"components/crd"
+	"components/echo"
+	"components/istioctl"
+	"components/namespace"
+	"resource"
+	testKube "kube"
 )
 
 var _ io.Closer = &kubeComponent{}

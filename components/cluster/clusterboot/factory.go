@@ -19,13 +19,13 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"istio.io/istio/pkg/test/framework/components/cluster"
+	"components/cluster"
 	// imported to trigger registration
-	_ "istio.io/istio/pkg/test/framework/components/cluster/kube"
+	_ "components/cluster/kube"
 	// imported to trigger registration
-	_ "istio.io/istio/pkg/test/framework/components/cluster/staticvm"
-	"istio.io/istio/pkg/test/framework/config"
-	"istio.io/istio/pkg/test/scopes"
+	_ "components/cluster/staticvm"
+	"config"
+	"scopes"
 )
 
 var _ cluster.Factory = factory{}

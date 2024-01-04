@@ -19,7 +19,7 @@ import (
 	"reflect"
 
 	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/test/echo/common/scheme"
+	"echo/common/scheme"
 )
 
 // NoServicePort defines the ServicePort value for a Port that is a workload-only port.

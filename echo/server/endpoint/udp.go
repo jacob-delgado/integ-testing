@@ -24,8 +24,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/util/retry"
+	"echo"
+	"util/retry"
 )
 
 var _ Instance = &udpInstance{}

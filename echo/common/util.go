@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"istio.io/istio/pkg/test/echo/proto"
+	"echo/proto"
 )
 
 func init() {

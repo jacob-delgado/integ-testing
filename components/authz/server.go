@@ -15,9 +15,9 @@
 package authz
 
 import (
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/framework/resource"
+	"framework"
+	"components/namespace"
+	"resource"
 )
 
 // Server for custom authz.

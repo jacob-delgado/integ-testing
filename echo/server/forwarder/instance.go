@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"io"
 
-	"istio.io/istio/pkg/test/echo/common/scheme"
-	"istio.io/istio/pkg/test/echo/proto"
+	"echo/common/scheme"
+	"echo/proto"
 )
 
 var _ io.Closer = &Instance{}

@@ -23,11 +23,11 @@ import (
 	"golang.org/x/sync/errgroup"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/resource"
-	kube2 "istio.io/istio/pkg/test/kube"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/yml"
+	"components/cluster"
+	"resource"
+	kube2 "kube"
+	"scopes"
+	"util/yml"
 )
 
 func (i *istioImpl) Close() error {

@@ -24,17 +24,17 @@ import (
 	corev1 "k8s.io/api/core/v1"
 
 	istioKube "istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test"
-	echoClient "istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/echo/proto"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/errors"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/retry"
+	"log"
+	
+	echoClient "echo"
+	"echo/common"
+	"echo/proto"
+	"components/cluster"
+	"components/echo"
+	"errors"
+	"resource"
+	"scopes"
+	"util/retry"
 )
 
 const (

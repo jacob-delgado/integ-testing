@@ -22,8 +22,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/strategicpatch"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/tmpl"
+	
+	"util/tmpl"
 )
 
 // ApplyNamespace applies the given namespaces to the resources in the yamlText if not set.

@@ -15,10 +15,10 @@
 package kube
 
 import (
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/cluster/clusterboot"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/scopes"
+	"components/cluster"
+	"components/cluster/clusterboot"
+	"resource"
+	"scopes"
 )
 
 // Environment is the implementation of a kubernetes environment. It implements environment.Environment,

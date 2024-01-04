@@ -37,12 +37,12 @@ import (
 
 	"istio.io/api/annotation"
 	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/istioctl"
-	"istio.io/istio/pkg/test/framework/resource"
+	"components/cluster"
+	"components/istioctl"
+	"resource"
 	"istio.io/istio/pkg/test/prow"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/retry"
+	"scopes"
+	"util/retry"
 )
 
 type wellKnownContainer string

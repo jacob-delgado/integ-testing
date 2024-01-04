@@ -19,10 +19,10 @@ import (
 	"sort"
 	"strings"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/echo/proto"
-	"istio.io/istio/pkg/test/framework/components/cluster"
+	
+	"echo"
+	"echo/proto"
+	"components/cluster"
 )
 
 // WorkloadContainer is container for a number of Workload objects.

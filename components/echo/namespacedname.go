@@ -18,7 +18,7 @@ import (
 	"sort"
 	"strings"
 
-	"istio.io/istio/pkg/test/framework/components/namespace"
+	"components/namespace"
 	"istio.io/istio/pkg/util/sets"
 )
 

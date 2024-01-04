@@ -20,12 +20,12 @@ import (
 	"time"
 
 	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/framework/resource/config/apply"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/tmpl"
+	"components/echo"
+	"components/namespace"
+	"resource"
+	"resource/config/apply"
+	"scopes"
+	"util/tmpl"
 )
 
 const (

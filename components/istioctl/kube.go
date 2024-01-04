@@ -23,9 +23,9 @@ import (
 
 	"istio.io/istio/istioctl/cmd"
 	"istio.io/istio/pilot/pkg/config/kube/crd"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/scopes"
+	
+	"resource"
+	"scopes"
 )
 
 // We cannot invoke the istioctl library concurrently due to the number of global variables

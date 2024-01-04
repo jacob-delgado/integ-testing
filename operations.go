@@ -17,7 +17,7 @@ package framework
 import (
 	"testing"
 
-	"istio.io/istio/pkg/test/framework/label"
+	"label"
 )
 
 // Run runs the given test.

@@ -19,8 +19,8 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	echoClient "istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/framework/components/echo"
+	echoClient "echo"
+	"components/echo"
 	"istio.io/istio/pkg/util/istiomultierror"
 )
 
