@@ -1,3 +1,8 @@
+This is a fork of the Istio test framework. There are many good features of the Istio integration testing framework that I've liked over the years I've had using it, however, it is tied into the istio repository. The goal of this project is to create a fork of the code that allows you do to testing on k8s clusters easily.
+
+This could help people test their projects on K8s, and if it uses Istio could also deploy Istio for their testing purposes.
+
+---
 This page introduces the Istio test framework. For an overview of the architecture as well as how
 to extend the framework, see the [Developer Guide](https://github.com/istio/istio/wiki/Preparing-for-Development).
 
