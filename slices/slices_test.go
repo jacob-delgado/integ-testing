@@ -21,7 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"istio.io/istio/pkg/test/util/assert"
+	"util/assert"
+
 	"istio.io/istio/tests/util/leak"
 )
 

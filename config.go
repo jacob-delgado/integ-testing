@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package framework
+package integtestingframework
 
 import (
 	"context"
@@ -22,8 +22,8 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"go.uber.org/atomic"
 	"golang.org/x/sync/errgroup"
+	"istio.io/istio/pkg/test"
 
-	
 	"components/cluster"
 	"components/istioctl"
 	"resource"

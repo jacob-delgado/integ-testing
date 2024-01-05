@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package framework
+package integtestingframework
 
 import (
 	"fmt"
@@ -23,12 +23,13 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"gopkg.in/yaml.v3"
 
-	"log"
-	"istio.io/istio/pkg/test/env"
 	"features"
 	"label"
+	"log"
 	"resource"
 	"scopes"
+
+	"istio.io/istio/pkg/test/env"
 	"istio.io/istio/pkg/util/sets"
 )
 
