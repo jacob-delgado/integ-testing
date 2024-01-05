@@ -17,13 +17,13 @@ package deployment
 import (
 	"fmt"
 
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/deployment"
-	"istio.io/istio/pkg/test/framework/components/echo/match"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/framework/resource/config"
-	"istio.io/istio/pkg/test/framework/resource/config/apply"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo/deployment"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo/match"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/namespace"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource/config"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource/config/apply"
 )
 
 const (

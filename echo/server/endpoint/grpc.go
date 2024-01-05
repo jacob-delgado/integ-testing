@@ -40,12 +40,12 @@ import (
 	"google.golang.org/grpc/reflection"
 	"google.golang.org/grpc/xds"
 
-	"istio.io/istio/pkg/env"
-	"istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/echo/proto"
-	"istio.io/istio/pkg/test/echo/server/forwarder"
-	"istio.io/istio/pkg/test/util/retry"
+	"github.com/jacob-delgado/integ-testing-framework/echo"
+	"github.com/jacob-delgado/integ-testing-framework/echo/common"
+	"github.com/jacob-delgado/integ-testing-framework/echo/proto"
+	"github.com/jacob-delgado/integ-testing-framework/echo/server/forwarder"
+	"github.com/jacob-delgado/integ-testing-framework/env"
+	"github.com/jacob-delgado/integ-testing-framework/util/retry"
 )
 
 var _ Instance = &grpcInstance{}

@@ -17,7 +17,7 @@ package cluster
 import (
 	"fmt"
 
-	"istio.io/istio/pkg/kube"
+	"github.com/jacob-delgado/integ-testing-framework/kube"
 )
 
 // Cluster in a multicluster environment.

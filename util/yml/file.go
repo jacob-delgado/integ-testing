@@ -19,7 +19,7 @@ import (
 	"os"
 	"strings"
 
-	"istio.io/istio/pkg/test"
+	"github.com/jacob-delgado/integ-testing-framework/test"
 )
 
 type docType string

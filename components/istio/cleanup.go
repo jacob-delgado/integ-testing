@@ -23,11 +23,11 @@ import (
 	"golang.org/x/sync/errgroup"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/resource"
-	kube2 "istio.io/istio/pkg/test/kube"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/yml"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	kube2 "github.com/jacob-delgado/integ-testing-framework/kube"
+	"github.com/jacob-delgado/integ-testing-framework/scopes"
+	"github.com/jacob-delgado/integ-testing-framework/util/yml"
 )
 
 func (i *istioImpl) Close() error {

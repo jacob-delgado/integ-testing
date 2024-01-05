@@ -23,13 +23,13 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"gopkg.in/yaml.v3"
 
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/framework/features"
-	"istio.io/istio/pkg/test/framework/label"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/util/sets"
+	"github.com/jacob-delgado/integ-testing-framework/env"
+	"github.com/jacob-delgado/integ-testing-framework/framework/features"
+	"github.com/jacob-delgado/integ-testing-framework/framework/label"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/log"
+	"github.com/jacob-delgado/integ-testing-framework/scopes"
+	"github.com/jacob-delgado/integ-testing-framework/util/sets"
 )
 
 type commonAnalyzer struct {

@@ -27,12 +27,12 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
+	"github.com/jacob-delgado/integ-testing-framework/config/protocol"
+	"github.com/jacob-delgado/integ-testing-framework/echo/common"
+	"github.com/jacob-delgado/integ-testing-framework/echo/server/endpoint"
+	"github.com/jacob-delgado/integ-testing-framework/log"
+	"github.com/jacob-delgado/integ-testing-framework/monitoring"
 	"istio.io/istio/pilot/pkg/util/network"
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/monitoring"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/echo/server/endpoint"
 )
 
 // Config for an echo server Instance.

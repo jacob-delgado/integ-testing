@@ -15,9 +15,9 @@
 package echotest
 
 import (
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/scopes"
+	"github.com/jacob-delgado/integ-testing-framework/framework"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/scopes"
 )
 
 type (

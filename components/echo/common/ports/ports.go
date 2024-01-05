@@ -15,8 +15,8 @@
 package ports
 
 import (
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/test/framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/config/protocol"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
 )
 
 // Port names.

@@ -21,8 +21,8 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test/env"
+	"github.com/jacob-delgado/integ-testing-framework/env"
+	"github.com/jacob-delgado/integ-testing-framework/log"
 )
 
 type Feature string

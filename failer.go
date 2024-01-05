@@ -22,7 +22,7 @@ import (
 	"sync"
 	"testing"
 
-	"istio.io/istio/pkg/log"
+	"github.com/jacob-delgado/integ-testing-framework/log"
 )
 
 var (

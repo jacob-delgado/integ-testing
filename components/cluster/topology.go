@@ -18,8 +18,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test/framework/config"
+	"github.com/jacob-delgado/integ-testing-framework/framework/config"
+	"github.com/jacob-delgado/integ-testing-framework/kube"
 )
 
 // Map can be given as a shared reference to multiple Topology/Cluster implementations.

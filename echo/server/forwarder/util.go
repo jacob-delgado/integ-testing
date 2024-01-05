@@ -27,11 +27,11 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"golang.org/x/net/proxy"
 
-	"istio.io/istio/pkg/hbone"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/echo/proto"
+	"github.com/jacob-delgado/integ-testing-framework/echo"
+	"github.com/jacob-delgado/integ-testing-framework/echo/common"
+	"github.com/jacob-delgado/integ-testing-framework/echo/proto"
+	"github.com/jacob-delgado/integ-testing-framework/hbone"
+	"github.com/jacob-delgado/integ-testing-framework/log"
 )
 
 const (

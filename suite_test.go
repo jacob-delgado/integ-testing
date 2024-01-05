@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package framework
+package integtestingframework
 
 import (
 	"fmt"
@@ -22,9 +22,9 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"istio.io/istio/pkg/test/framework/components/environment/kube"
-	"istio.io/istio/pkg/test/framework/label"
-	"istio.io/istio/pkg/test/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/environment/kube"
+	"github.com/jacob-delgado/integ-testing-framework/framework/label"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
 )
 
 func defaultExitFn(_ int) {}

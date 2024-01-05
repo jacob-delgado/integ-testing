@@ -17,9 +17,9 @@ package traffic
 import (
 	"time"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/check"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo/check"
+	"github.com/jacob-delgado/integ-testing-framework/test"
 )
 
 const (

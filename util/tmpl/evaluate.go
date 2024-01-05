@@ -17,8 +17,8 @@ package tmpl
 import (
 	"fmt"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/file"
+	"github.com/jacob-delgado/integ-testing-framework/test"
+	"github.com/jacob-delgado/integ-testing-framework/util/file"
 )
 
 // Evaluate parses the template and then executes it with the given parameters.

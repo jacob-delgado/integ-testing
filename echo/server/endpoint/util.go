@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"time"
 
-	"istio.io/istio/pkg/log"
+	"github.com/jacob-delgado/integ-testing-framework/log"
 )
 
 var epLog = log.RegisterScope("endpoint", "echo serverside")

@@ -15,8 +15,8 @@
 package echo
 
 import (
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/echo"
+	"github.com/jacob-delgado/integ-testing-framework/echo"
+	"github.com/jacob-delgado/integ-testing-framework/test"
 )
 
 // CallResult the result of a call operation.

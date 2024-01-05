@@ -35,14 +35,14 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/yaml"
 
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/istioctl"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/kube"
+	"github.com/jacob-delgado/integ-testing-framework/prow"
+	"github.com/jacob-delgado/integ-testing-framework/scopes"
+	"github.com/jacob-delgado/integ-testing-framework/util/retry"
 	"istio.io/api/annotation"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/istioctl"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/prow"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/retry"
 )
 
 type wellKnownContainer string

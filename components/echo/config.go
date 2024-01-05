@@ -23,12 +23,12 @@ import (
 	"github.com/mitchellh/copystructure"
 	"gopkg.in/yaml.v3"
 
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/config/constants"
+	"github.com/jacob-delgado/integ-testing-framework/config/protocol"
+	"github.com/jacob-delgado/integ-testing-framework/echo/common"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/namespace"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
 )
 
 // Cluster that can deploy echo instances.

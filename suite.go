@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package framework
+package integtestingframework
 
 import (
 	"errors"
@@ -30,19 +30,19 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"gopkg.in/yaml.v2"
 
-	kubelib "istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/environment/kube"
-	"istio.io/istio/pkg/test/framework/config"
-	ferrors "istio.io/istio/pkg/test/framework/errors"
-	"istio.io/istio/pkg/test/framework/label"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/prow"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/file"
-	"istio.io/istio/pkg/tracing"
+	"github.com/jacob-delgado/integ-testing-framework/echo"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/environment/kube"
+	"github.com/jacob-delgado/integ-testing-framework/framework/config"
+	ferrors "github.com/jacob-delgado/integ-testing-framework/framework/errors"
+	"github.com/jacob-delgado/integ-testing-framework/framework/label"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	kubelib "github.com/jacob-delgado/integ-testing-framework/kube"
+	"github.com/jacob-delgado/integ-testing-framework/log"
+	"github.com/jacob-delgado/integ-testing-framework/prow"
+	"github.com/jacob-delgado/integ-testing-framework/scopes"
+	"github.com/jacob-delgado/integ-testing-framework/tracing"
+	"github.com/jacob-delgado/integ-testing-framework/util/file"
 )
 
 // test.Run uses 0, 1, 2 exit codes. Use different exit codes for our framework.

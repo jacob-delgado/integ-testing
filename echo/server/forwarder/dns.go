@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/echo/proto"
+	"github.com/jacob-delgado/integ-testing-framework/echo"
+	"github.com/jacob-delgado/integ-testing-framework/echo/proto"
 )
 
 var _ protocol = &dnsProtocol{}

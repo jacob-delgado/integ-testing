@@ -29,8 +29,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 
+	"github.com/jacob-delgado/integ-testing-framework/framework"
 	pb "istio.io/api/security/v1alpha1"
-	"istio.io/istio/pkg/test/framework"
 	pkiutil "istio.io/istio/security/pkg/pki/util"
 )
 

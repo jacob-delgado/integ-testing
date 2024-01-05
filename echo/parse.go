@@ -19,7 +19,7 @@ import (
 	"regexp"
 	"strings"
 
-	"istio.io/istio/pkg/test/echo/proto"
+	"github.com/jacob-delgado/integ-testing-framework/echo/proto"
 )
 
 var (

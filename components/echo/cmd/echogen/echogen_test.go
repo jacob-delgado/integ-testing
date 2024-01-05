@@ -19,8 +19,8 @@ import (
 	"flag"
 	"testing"
 
+	"github.com/jacob-delgado/integ-testing-framework/framework/config"
 	"istio.io/istio/pilot/test/util"
-	"istio.io/istio/pkg/test/framework/config"
 )
 
 const (

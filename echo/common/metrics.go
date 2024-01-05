@@ -15,7 +15,7 @@
 package common
 
 import (
-	"istio.io/istio/pkg/monitoring"
+	"github.com/jacob-delgado/integ-testing-framework/monitoring"
 )
 
 type EchoMetrics struct {

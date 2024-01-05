@@ -27,9 +27,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/util/retry"
+	"github.com/jacob-delgado/integ-testing-framework/echo"
+	"github.com/jacob-delgado/integ-testing-framework/echo/common"
+	"github.com/jacob-delgado/integ-testing-framework/util/retry"
 )
 
 var _ Instance = &tcpInstance{}

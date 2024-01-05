@@ -17,7 +17,7 @@ package integtestingframework
 import (
 	"testing"
 
-	"istio.io/istio/pkg/test/framework/label"
+	"github.com/jacob-delgado/integ-testing-framework/framework/label"
 )
 
 // Run runs the given test.

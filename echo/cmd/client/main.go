@@ -29,11 +29,11 @@ import (
 	_ "google.golang.org/grpc/xds"
 	wrappers "google.golang.org/protobuf/types/known/wrapperspb"
 
-	"istio.io/istio/pkg/cmd"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/echo/proto"
-	"istio.io/istio/pkg/test/echo/server/forwarder"
+	"github.com/jacob-delgado/integ-testing-framework/cmd"
+	"github.com/jacob-delgado/integ-testing-framework/echo/common"
+	"github.com/jacob-delgado/integ-testing-framework/echo/proto"
+	"github.com/jacob-delgado/integ-testing-framework/echo/server/forwarder"
+	"github.com/jacob-delgado/integ-testing-framework/log"
 )
 
 var (

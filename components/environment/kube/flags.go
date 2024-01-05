@@ -24,11 +24,11 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/config"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/file"
+	"github.com/jacob-delgado/integ-testing-framework/env"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/framework/config"
+	"github.com/jacob-delgado/integ-testing-framework/scopes"
+	"github.com/jacob-delgado/integ-testing-framework/util/file"
 )
 
 const (

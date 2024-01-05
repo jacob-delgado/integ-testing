@@ -19,8 +19,8 @@ import (
 	"strings"
 	"time"
 
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/shell"
+	"github.com/jacob-delgado/integ-testing-framework/scopes"
+	"github.com/jacob-delgado/integ-testing-framework/shell"
 )
 
 // Helm allows clients to interact with helm commands in their cluster

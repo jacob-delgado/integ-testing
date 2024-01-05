@@ -17,8 +17,8 @@ package ingress
 import (
 	"net/netip"
 
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
 )
 
 type Instances []Instance

@@ -23,11 +23,11 @@ import (
 	"github.com/hashicorp/go-multierror"
 	corev1 "k8s.io/api/core/v1"
 
-	"istio.io/istio/pkg/config/protocol"
-	echoCommon "istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/util/retry"
+	"github.com/jacob-delgado/integ-testing-framework/config/protocol"
+	echoCommon "github.com/jacob-delgado/integ-testing-framework/echo/common"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/util/retry"
 )
 
 var (

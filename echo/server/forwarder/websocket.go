@@ -24,9 +24,9 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/echo/proto"
+	"github.com/jacob-delgado/integ-testing-framework/echo"
+	"github.com/jacob-delgado/integ-testing-framework/echo/common"
+	"github.com/jacob-delgado/integ-testing-framework/echo/proto"
 )
 
 var _ protocol = &websocketProtocol{}

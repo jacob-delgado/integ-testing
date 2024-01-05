@@ -15,10 +15,10 @@
 package resource
 
 import (
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/resource/config"
-	"istio.io/istio/pkg/test/framework/resource/config/cleanup"
-	"istio.io/istio/pkg/test/util/yml"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource/config"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource/config/cleanup"
+	"github.com/jacob-delgado/integ-testing-framework/util/yml"
 )
 
 // Context is the core context interface that is used by resources.

@@ -20,7 +20,7 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"istio.io/istio/pkg/test/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
 )
 
 func TestGet_Struct(t *testing.T) {

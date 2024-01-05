@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package framework
+package integtestingframework
 
 import (
 	context2 "context"
@@ -22,12 +22,12 @@ import (
 
 	traceapi "go.opentelemetry.io/otel/trace"
 
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test/framework/features"
-	"istio.io/istio/pkg/test/framework/label"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/tracing"
+	"github.com/jacob-delgado/integ-testing-framework/framework/features"
+	"github.com/jacob-delgado/integ-testing-framework/framework/label"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/log"
+	"github.com/jacob-delgado/integ-testing-framework/scopes"
+	"github.com/jacob-delgado/integ-testing-framework/tracing"
 )
 
 type Test interface {

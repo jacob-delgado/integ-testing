@@ -20,13 +20,13 @@ import (
 
 	"k8s.io/apimachinery/pkg/types"
 
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/istio"
-	"istio.io/istio/pkg/test/framework/components/istio/ingress"
+	"github.com/jacob-delgado/integ-testing-framework/config/constants"
+	"github.com/jacob-delgado/integ-testing-framework/framework"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/istio"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/istio/ingress"
+	"github.com/jacob-delgado/integ-testing-framework/slices"
 )
 
 type (

@@ -24,9 +24,9 @@ import (
 	"gopkg.in/yaml.v3"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework/label"
-	"istio.io/istio/pkg/util/sets"
+	"github.com/jacob-delgado/integ-testing-framework/framework/label"
+	"github.com/jacob-delgado/integ-testing-framework/test"
+	"github.com/jacob-delgado/integ-testing-framework/util/sets"
 )
 
 const (

@@ -20,10 +20,10 @@ import (
 	"os"
 	"strings"
 
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/framework/config"
-	"istio.io/istio/pkg/test/framework/label"
+	"github.com/jacob-delgado/integ-testing-framework/env"
+	"github.com/jacob-delgado/integ-testing-framework/framework/config"
+	"github.com/jacob-delgado/integ-testing-framework/framework/label"
+	"github.com/jacob-delgado/integ-testing-framework/log"
 )
 
 var settingsFromCommandLine = DefaultSettings()

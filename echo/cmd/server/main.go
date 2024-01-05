@@ -24,11 +24,11 @@ import (
 	// To install the xds resolvers and balancers.
 	_ "google.golang.org/grpc/xds"
 
-	"istio.io/istio/pkg/cmd"
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/echo/server"
+	"github.com/jacob-delgado/integ-testing-framework/cmd"
+	"github.com/jacob-delgado/integ-testing-framework/config/protocol"
+	"github.com/jacob-delgado/integ-testing-framework/echo/common"
+	"github.com/jacob-delgado/integ-testing-framework/echo/server"
+	"github.com/jacob-delgado/integ-testing-framework/log"
 )
 
 var (

@@ -18,9 +18,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/kube"
 )
 
 var _ echo.Cluster = &Cluster{}

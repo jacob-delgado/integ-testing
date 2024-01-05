@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"text/template"
 
-	"istio.io/istio/pkg/test"
+	"github.com/jacob-delgado/integ-testing-framework/test"
 )
 
 // Execute the template with the given parameters.

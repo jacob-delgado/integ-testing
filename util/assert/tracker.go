@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/retry"
+	"github.com/jacob-delgado/integ-testing-framework/test"
+	"github.com/jacob-delgado/integ-testing-framework/util/retry"
 )
 
 type Tracker[T comparable] struct {

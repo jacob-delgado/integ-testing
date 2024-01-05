@@ -17,7 +17,7 @@ package cluster
 import (
 	"k8s.io/apimachinery/pkg/version"
 
-	"istio.io/istio/pkg/kube"
+	"github.com/jacob-delgado/integ-testing-framework/kube"
 )
 
 var _ Cluster = FakeCluster{}

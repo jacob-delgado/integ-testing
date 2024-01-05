@@ -26,9 +26,9 @@ import (
 	"strings"
 	"time"
 
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/echo/common/scheme"
-	"istio.io/istio/pkg/test/echo/proto"
+	"github.com/jacob-delgado/integ-testing-framework/echo/common"
+	"github.com/jacob-delgado/integ-testing-framework/echo/common/scheme"
+	"github.com/jacob-delgado/integ-testing-framework/echo/proto"
 )
 
 type Config struct {

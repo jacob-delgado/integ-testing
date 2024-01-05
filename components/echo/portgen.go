@@ -17,7 +17,7 @@ package echo
 import (
 	"math"
 
-	"istio.io/istio/pkg/config/protocol"
+	"github.com/jacob-delgado/integ-testing-framework/config/protocol"
 )
 
 const (

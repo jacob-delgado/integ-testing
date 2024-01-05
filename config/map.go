@@ -17,7 +17,7 @@ package config
 import (
 	"fmt"
 
-	"istio.io/istio/pkg/test/scopes"
+	"github.com/jacob-delgado/integ-testing-framework/scopes"
 )
 
 type Map map[string]any

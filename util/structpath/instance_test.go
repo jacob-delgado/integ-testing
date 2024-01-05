@@ -19,7 +19,7 @@ import (
 
 	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
 
-	"istio.io/istio/pkg/test/util/structpath"
+	"github.com/jacob-delgado/integ-testing-framework/util/structpath"
 )
 
 func TestContainSubstring(t *testing.T) {

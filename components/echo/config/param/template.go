@@ -18,7 +18,7 @@ import (
 	"text/template"
 	"text/template/parse"
 
-	"istio.io/istio/pkg/util/sets"
+	"github.com/jacob-delgado/integ-testing-framework/util/sets"
 )
 
 // Template that has been parsed to search for template parameters.

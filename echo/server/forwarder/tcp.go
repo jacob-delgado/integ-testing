@@ -26,10 +26,10 @@ import (
 
 	proxyproto "github.com/pires/go-proxyproto"
 
-	"istio.io/istio/pkg/hbone"
-	"istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/echo/proto"
+	"github.com/jacob-delgado/integ-testing-framework/echo"
+	"github.com/jacob-delgado/integ-testing-framework/echo/common"
+	"github.com/jacob-delgado/integ-testing-framework/echo/proto"
+	"github.com/jacob-delgado/integ-testing-framework/hbone"
 )
 
 var _ protocol = &tcpProtocol{}

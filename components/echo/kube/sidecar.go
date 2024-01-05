@@ -26,12 +26,12 @@ import (
 	corev1 "k8s.io/api/core/v1"
 
 	// Import all XDS config types
-	_ "istio.io/istio/pkg/config/xds"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/util/retry"
-	"istio.io/istio/pkg/util/protomarshal"
+	_ "github.com/jacob-delgado/integ-testing-framework/config/xds"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/test"
+	"github.com/jacob-delgado/integ-testing-framework/util/protomarshal"
+	"github.com/jacob-delgado/integ-testing-framework/util/retry"
 )
 
 const (

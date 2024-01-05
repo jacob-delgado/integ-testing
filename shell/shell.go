@@ -21,7 +21,7 @@ import (
 
 	"github.com/google/shlex"
 
-	"istio.io/istio/pkg/log"
+	"github.com/jacob-delgado/integ-testing-framework/log"
 )
 
 var scope = log.RegisterScope("shell", "Shell execution scope")

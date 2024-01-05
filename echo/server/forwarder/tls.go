@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
-	"istio.io/istio/pkg/hbone"
-	"istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/echo/proto"
+	"github.com/jacob-delgado/integ-testing-framework/echo"
+	"github.com/jacob-delgado/integ-testing-framework/echo/proto"
+	"github.com/jacob-delgado/integ-testing-framework/hbone"
 )
 
 var _ protocol = &tlsProtocol{}

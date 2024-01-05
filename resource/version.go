@@ -20,8 +20,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/jacob-delgado/integ-testing-framework/framework/config"
 	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/test/framework/config"
 )
 
 var _ config.Value = &RevVerMap{}

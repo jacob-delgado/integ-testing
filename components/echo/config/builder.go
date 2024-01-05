@@ -19,15 +19,15 @@ import (
 	"reflect"
 	"time"
 
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/config/param"
-	"istio.io/istio/pkg/test/framework/components/istio"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/framework/resource/config"
-	"istio.io/istio/pkg/test/framework/resource/config/apply"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/util/sets"
+	"github.com/jacob-delgado/integ-testing-framework/framework"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo/config/param"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/istio"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/namespace"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource/config"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource/config/apply"
+	"github.com/jacob-delgado/integ-testing-framework/scopes"
+	"github.com/jacob-delgado/integ-testing-framework/util/sets"
 )
 
 // Builder of configuration.

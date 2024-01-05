@@ -32,10 +32,10 @@ import (
 	"github.com/gorilla/websocket"
 	"golang.org/x/net/http2"
 
-	"istio.io/istio/pkg/h2c"
-	"istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/util/retry"
+	"github.com/jacob-delgado/integ-testing-framework/echo"
+	"github.com/jacob-delgado/integ-testing-framework/echo/common"
+	"github.com/jacob-delgado/integ-testing-framework/h2c"
+	"github.com/jacob-delgado/integ-testing-framework/util/retry"
 )
 
 const (

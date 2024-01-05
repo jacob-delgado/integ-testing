@@ -16,14 +16,14 @@ package kube
 import (
 	"testing"
 
+	"github.com/jacob-delgado/integ-testing-framework/config/protocol"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster/clusterboot"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/namespace"
+	"github.com/jacob-delgado/integ-testing-framework/framework/config"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
 	testutil "istio.io/istio/pilot/test/util"
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/cluster/clusterboot"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/framework/config"
-	"istio.io/istio/pkg/test/framework/resource"
 )
 
 func TestDeploymentYAML(t *testing.T) {

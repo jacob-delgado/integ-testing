@@ -19,10 +19,10 @@ import (
 	"sort"
 	"strings"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/echo/proto"
-	"istio.io/istio/pkg/test/framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/echo"
+	"github.com/jacob-delgado/integ-testing-framework/echo/proto"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/test"
 )
 
 // WorkloadContainer is container for a number of Workload objects.

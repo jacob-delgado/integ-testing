@@ -20,21 +20,21 @@ import (
 	"strings"
 
 	"github.com/hashicorp/go-multierror"
+	"github.com/jacob-delgado/integ-testing-framework/test"
 	"go.uber.org/atomic"
 	"golang.org/x/sync/errgroup"
-	"istio.io/istio/pkg/test"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/istioctl"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/framework/resource/config"
-	"istio.io/istio/pkg/test/framework/resource/config/apply"
-	"istio.io/istio/pkg/test/framework/resource/config/cleanup"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/file"
-	"istio.io/istio/pkg/test/util/tmpl"
-	"istio.io/istio/pkg/test/util/yml"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/istioctl"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource/config"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource/config/apply"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource/config/cleanup"
+	"github.com/jacob-delgado/integ-testing-framework/scopes"
+	"github.com/jacob-delgado/integ-testing-framework/test"
+	"github.com/jacob-delgado/integ-testing-framework/util/file"
+	"github.com/jacob-delgado/integ-testing-framework/util/tmpl"
+	"github.com/jacob-delgado/integ-testing-framework/util/yml"
 )
 
 var _ config.Factory = &configFactory{}

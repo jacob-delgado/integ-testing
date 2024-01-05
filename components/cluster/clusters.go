@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"sort"
 
-	"istio.io/istio/pkg/util/sets"
+	"github.com/jacob-delgado/integ-testing-framework/util/sets"
 )
 
 // Clusters is an ordered list of Cluster instances.

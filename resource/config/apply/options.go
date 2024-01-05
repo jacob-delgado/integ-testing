@@ -14,7 +14,7 @@
 
 package apply
 
-import "istio.io/istio/pkg/test/framework/resource/config/cleanup"
+import "github.com/jacob-delgado/integ-testing-framework/framework/resource/config/cleanup"
 
 // Options provide options for applying configuration
 type Options struct {

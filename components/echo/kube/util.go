@@ -19,9 +19,9 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
+	"github.com/jacob-delgado/integ-testing-framework/config/constants"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
 	"istio.io/api/annotation"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/test/framework/components/echo"
 )
 
 type podSelector struct {

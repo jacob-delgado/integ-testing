@@ -17,8 +17,8 @@ package integration
 import (
 	"testing"
 
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/framework"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
 )
 
 func TestMain(m *testing.M) {

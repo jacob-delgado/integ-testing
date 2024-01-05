@@ -23,10 +23,10 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"istio.io/istio/pkg/test/framework/config"
-	"istio.io/istio/pkg/test/framework/features"
-	"istio.io/istio/pkg/test/framework/label"
-	"istio.io/istio/pkg/test/scopes"
+	"github.com/jacob-delgado/integ-testing-framework/framework/config"
+	"github.com/jacob-delgado/integ-testing-framework/framework/features"
+	"github.com/jacob-delgado/integ-testing-framework/framework/label"
+	"github.com/jacob-delgado/integ-testing-framework/scopes"
 )
 
 var (

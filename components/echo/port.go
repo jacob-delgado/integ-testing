@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/test/echo/common/scheme"
+	"github.com/jacob-delgado/integ-testing-framework/config/protocol"
+	"github.com/jacob-delgado/integ-testing-framework/echo/common/scheme"
 )
 
 // NoServicePort defines the ServicePort value for a Port that is a workload-only port.

@@ -23,8 +23,8 @@ import (
 	"go.uber.org/atomic"
 	"gopkg.in/yaml.v3"
 
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/file"
+	"github.com/jacob-delgado/integ-testing-framework/scopes"
+	"github.com/jacob-delgado/integ-testing-framework/util/file"
 )
 
 const prefix = "istio.test"

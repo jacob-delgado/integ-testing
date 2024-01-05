@@ -15,7 +15,7 @@
 package main
 
 import (
-	"istio.io/istio/pkg/test/framework/tools/featuresgen/cmd"
+	"github.com/jacob-delgado/integ-testing-framework/framework/tools/featuresgen/cmd"
 )
 
 func main() {

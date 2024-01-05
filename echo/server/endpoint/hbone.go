@@ -20,7 +20,7 @@ import (
 	"net"
 	"net/http"
 
-	"istio.io/istio/pkg/hbone"
+	"github.com/jacob-delgado/integ-testing-framework/hbone"
 )
 
 var _ Instance = &connectInstance{}

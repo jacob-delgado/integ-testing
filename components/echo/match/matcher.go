@@ -17,8 +17,8 @@ package match
 import (
 	"errors"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/test"
 )
 
 // Matcher is used to filter matching instances

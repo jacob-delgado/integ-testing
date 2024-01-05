@@ -20,7 +20,7 @@ import (
 
 	"github.com/Masterminds/sprig/v3"
 
-	"istio.io/istio/pkg/test"
+	"github.com/jacob-delgado/integ-testing-framework/test"
 )
 
 // Parse the given template content.

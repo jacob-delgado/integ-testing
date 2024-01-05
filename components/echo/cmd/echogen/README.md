@@ -7,7 +7,7 @@
 ### Installation
 
 ```bash
-go install istio.io/istio/pkg/test/framework/components/echo/echogen
+go install github.com/jacob-delgado/integ-testing-framework/framework/components/echo/echogen
 ```
 
 ### Usage

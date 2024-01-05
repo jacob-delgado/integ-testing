@@ -47,7 +47,7 @@ func TestMain(m *testing.M) {
 ```
 
 You can customize your suite to only run in certain environments, or add additional setup by methods on `NewSuite`.
-Check the docs for [Suite](https://godoc.org/istio.io/istio/pkg/test/framework#Suite) to see a full list of capabilities.
+Check the docs for [Suite](https://godoc.org/github.com/jacob-delgado/integ-testing-framework/framework#Suite) to see a full list of capabilities.
 
 ```golang
 func TestMain(m *testing.M) {

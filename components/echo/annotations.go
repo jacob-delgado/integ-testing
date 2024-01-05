@@ -19,8 +19,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/jacob-delgado/integ-testing-framework/config/constants"
 	"istio.io/api/annotation"
-	"istio.io/istio/pkg/config/constants"
 )
 
 type AnnotationType string

@@ -15,12 +15,12 @@
 package config
 
 import (
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework/components/echo/config/param"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/util/file"
-	"istio.io/istio/pkg/test/util/tmpl"
-	"istio.io/istio/pkg/test/util/yml"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo/config/param"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/namespace"
+	"github.com/jacob-delgado/integ-testing-framework/test"
+	"github.com/jacob-delgado/integ-testing-framework/util/file"
+	"github.com/jacob-delgado/integ-testing-framework/util/tmpl"
+	"github.com/jacob-delgado/integ-testing-framework/util/yml"
 )
 
 // Source of YAML text.

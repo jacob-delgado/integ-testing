@@ -25,19 +25,19 @@ import (
 	"github.com/hashicorp/go-multierror"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"istio.io/istio/pkg/kube/inject"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework/components/ambient"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/kube"
-	_ "istio.io/istio/pkg/test/framework/components/echo/staticvm" // force registraton of factory func
-	"istio.io/istio/pkg/test/framework/components/istio"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/framework/resource/config/apply"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/util/sets"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/ambient"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo/kube"
+	_ "github.com/jacob-delgado/integ-testing-framework/framework/components/echo/staticvm" // force registraton of factory func
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/istio"
+	"github.com/jacob-delgado/integ-testing-framework/framework/components/namespace"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/framework/resource/config/apply"
+	"github.com/jacob-delgado/integ-testing-framework/kube/inject"
+	"github.com/jacob-delgado/integ-testing-framework/scopes"
+	"github.com/jacob-delgado/integ-testing-framework/test"
+	"github.com/jacob-delgado/integ-testing-framework/util/sets"
 )
 
 // Builder for a group of collaborating Echo Instances. Once built, all Instances in the
