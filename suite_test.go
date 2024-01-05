@@ -22,9 +22,9 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/environment/kube"
-	"github.com/jacob-delgado/integ-testing-framework/framework/label"
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/components/environment/kube"
+	"github.com/jacob-delgado/integ-testing-framework/label"
+	"github.com/jacob-delgado/integ-testing-framework/resource"
 )
 
 func defaultExitFn(_ int) {}

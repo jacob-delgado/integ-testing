@@ -20,6 +20,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-multierror"
+	"istio.io/istio/pkg/test"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -28,7 +29,6 @@ import (
 	istioKube "github.com/jacob-delgado/integ-testing-framework/kube"
 	"github.com/jacob-delgado/integ-testing-framework/scopes"
 	"github.com/jacob-delgado/integ-testing-framework/slices"
-	"github.com/jacob-delgado/integ-testing-framework/test"
 	"github.com/jacob-delgado/integ-testing-framework/util/retry"
 )
 

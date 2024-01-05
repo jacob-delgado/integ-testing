@@ -17,8 +17,8 @@ package traffic
 import (
 	"time"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo/check"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo/check"
 	"github.com/jacob-delgado/integ-testing-framework/test"
 )
 

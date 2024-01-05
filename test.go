@@ -22,10 +22,10 @@ import (
 
 	traceapi "go.opentelemetry.io/otel/trace"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/features"
-	"github.com/jacob-delgado/integ-testing-framework/framework/label"
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/features"
+	"github.com/jacob-delgado/integ-testing-framework/label"
 	"github.com/jacob-delgado/integ-testing-framework/log"
+	"github.com/jacob-delgado/integ-testing-framework/resource"
 	"github.com/jacob-delgado/integ-testing-framework/scopes"
 	"github.com/jacob-delgado/integ-testing-framework/tracing"
 )

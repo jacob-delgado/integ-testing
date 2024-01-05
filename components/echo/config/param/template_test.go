@@ -19,7 +19,7 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo/config/param"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo/config/param"
 	"github.com/jacob-delgado/integ-testing-framework/util/tmpl"
 )
 

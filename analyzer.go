@@ -24,10 +24,10 @@ import (
 	"gopkg.in/yaml.v3"
 
 	"github.com/jacob-delgado/integ-testing-framework/env"
-	"github.com/jacob-delgado/integ-testing-framework/framework/features"
-	"github.com/jacob-delgado/integ-testing-framework/framework/label"
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/features"
+	"github.com/jacob-delgado/integ-testing-framework/label"
 	"github.com/jacob-delgado/integ-testing-framework/log"
+	"github.com/jacob-delgado/integ-testing-framework/resource"
 	"github.com/jacob-delgado/integ-testing-framework/scopes"
 	"github.com/jacob-delgado/integ-testing-framework/util/sets"
 )

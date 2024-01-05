@@ -15,8 +15,8 @@
 package ports
 
 import (
+	"github.com/jacob-delgado/integ-testing-framework/components/echo"
 	"github.com/jacob-delgado/integ-testing-framework/config/protocol"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
 )
 
 // Port names.

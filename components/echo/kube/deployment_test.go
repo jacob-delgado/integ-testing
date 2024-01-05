@@ -16,13 +16,13 @@ package kube
 import (
 	"testing"
 
+	"github.com/jacob-delgado/integ-testing-framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/components/cluster/clusterboot"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/components/namespace"
+	"github.com/jacob-delgado/integ-testing-framework/config"
 	"github.com/jacob-delgado/integ-testing-framework/config/protocol"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster/clusterboot"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/namespace"
-	"github.com/jacob-delgado/integ-testing-framework/framework/config"
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/resource"
 	testutil "istio.io/istio/pilot/test/util"
 )
 

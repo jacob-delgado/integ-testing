@@ -18,7 +18,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/namespace"
+	"github.com/jacob-delgado/integ-testing-framework/components/namespace"
 	"github.com/jacob-delgado/integ-testing-framework/util/sets"
 )
 

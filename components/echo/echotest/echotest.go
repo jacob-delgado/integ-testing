@@ -15,10 +15,10 @@
 package echotest
 
 import (
+	"github.com/jacob-delgado/integ-testing-framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo/config"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo/match"
 	"github.com/jacob-delgado/integ-testing-framework/framework"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo/config"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo/match"
 )
 
 // T enumerates subtests given a set of workloads as echo.Instances.

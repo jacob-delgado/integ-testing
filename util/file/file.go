@@ -24,8 +24,7 @@ import (
 	"strings"
 
 	"github.com/mitchellh/go-homedir"
-
-	"github.com/jacob-delgado/integ-testing-framework/test"
+	"istio.io/istio/pkg/test"
 )
 
 // AsBytes is a simple wrapper around os.ReadFile provided for completeness.

@@ -20,8 +20,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
-	"github.com/jacob-delgado/integ-testing-framework/framework/config"
+	"github.com/jacob-delgado/integ-testing-framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/config"
 )
 
 func TestBuild(t *testing.T) {

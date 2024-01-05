@@ -22,10 +22,10 @@ import (
 
 	"github.com/google/uuid"
 	"gopkg.in/yaml.v3"
+	"istio.io/istio/pkg/test"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/label"
-	"github.com/jacob-delgado/integ-testing-framework/test"
+	"github.com/jacob-delgado/integ-testing-framework/label"
 	"github.com/jacob-delgado/integ-testing-framework/util/sets"
 )
 

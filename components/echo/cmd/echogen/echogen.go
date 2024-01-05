@@ -23,12 +23,12 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo/common/ports"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo/kube"
-	"github.com/jacob-delgado/integ-testing-framework/framework/config"
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo/common/ports"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo/kube"
+	"github.com/jacob-delgado/integ-testing-framework/config"
+	"github.com/jacob-delgado/integ-testing-framework/resource"
 	"github.com/jacob-delgado/integ-testing-framework/util/yml"
 )
 

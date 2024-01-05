@@ -19,9 +19,9 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/jacob-delgado/integ-testing-framework/components/cluster"
 	"github.com/jacob-delgado/integ-testing-framework/echo"
 	"github.com/jacob-delgado/integ-testing-framework/echo/proto"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
 	"github.com/jacob-delgado/integ-testing-framework/test"
 )
 

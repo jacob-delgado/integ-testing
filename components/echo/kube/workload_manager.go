@@ -23,10 +23,10 @@ import (
 	"github.com/hashicorp/go-multierror"
 	corev1 "k8s.io/api/core/v1"
 
+	"github.com/jacob-delgado/integ-testing-framework/components/echo"
 	"github.com/jacob-delgado/integ-testing-framework/config/protocol"
 	echoCommon "github.com/jacob-delgado/integ-testing-framework/echo/common"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/resource"
 	"github.com/jacob-delgado/integ-testing-framework/util/retry"
 )
 

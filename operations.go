@@ -17,7 +17,7 @@ package integtestingframework
 import (
 	"testing"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/label"
+	"github.com/jacob-delgado/integ-testing-framework/label"
 )
 
 // Run runs the given test.

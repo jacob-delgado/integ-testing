@@ -23,20 +23,20 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/hashicorp/go-multierror"
+	"istio.io/istio/pkg/test"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/ambient"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo/kube"
-	_ "github.com/jacob-delgado/integ-testing-framework/framework/components/echo/staticvm" // force registraton of factory func
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/istio"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/namespace"
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource/config/apply"
+	"github.com/jacob-delgado/integ-testing-framework/components/ambient"
+	"github.com/jacob-delgado/integ-testing-framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo/kube"
+	_ "github.com/jacob-delgado/integ-testing-framework/components/echo/staticvm" // force registraton of factory func
+	"github.com/jacob-delgado/integ-testing-framework/components/istio"
+	"github.com/jacob-delgado/integ-testing-framework/components/namespace"
 	"github.com/jacob-delgado/integ-testing-framework/kube/inject"
+	"github.com/jacob-delgado/integ-testing-framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/resource/config/apply"
 	"github.com/jacob-delgado/integ-testing-framework/scopes"
-	"github.com/jacob-delgado/integ-testing-framework/test"
 	"github.com/jacob-delgado/integ-testing-framework/util/sets"
 )
 

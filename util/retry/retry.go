@@ -20,7 +20,7 @@ import (
 	"time"
 
 	"github.com/jacob-delgado/integ-testing-framework/log"
-	"github.com/jacob-delgado/integ-testing-framework/test"
+	"istio.io/istio/pkg/test"
 )
 
 var scope = log.RegisterScope("retry", "logs for retries")

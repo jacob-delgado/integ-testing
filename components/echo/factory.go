@@ -17,8 +17,8 @@ package echo
 import (
 	"fmt"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/resource"
 )
 
 // FactoryFunc can be used by a builder to produce instances from configs

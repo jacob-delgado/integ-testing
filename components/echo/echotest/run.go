@@ -20,12 +20,12 @@ import (
 
 	"k8s.io/apimachinery/pkg/types"
 
+	"github.com/jacob-delgado/integ-testing-framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/components/istio"
+	"github.com/jacob-delgado/integ-testing-framework/components/istio/ingress"
 	"github.com/jacob-delgado/integ-testing-framework/config/constants"
 	"github.com/jacob-delgado/integ-testing-framework/framework"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/istio"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/istio/ingress"
 	"github.com/jacob-delgado/integ-testing-framework/slices"
 )
 

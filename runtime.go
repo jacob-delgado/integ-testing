@@ -17,8 +17,8 @@ package integtestingframework
 import (
 	"testing"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/label"
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/label"
+	"github.com/jacob-delgado/integ-testing-framework/resource"
 )
 
 var _ resource.Dumper = &runtime{}

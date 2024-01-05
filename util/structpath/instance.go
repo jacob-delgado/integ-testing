@@ -25,9 +25,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/protobuf/proto"
+	"istio.io/istio/pkg/test"
 	"k8s.io/client-go/util/jsonpath"
 
-	"github.com/jacob-delgado/integ-testing-framework/test"
 	"github.com/jacob-delgado/integ-testing-framework/util/protomarshal"
 )
 

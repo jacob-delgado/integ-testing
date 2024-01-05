@@ -20,9 +20,9 @@ import (
 	"os"
 	"strings"
 
+	"github.com/jacob-delgado/integ-testing-framework/config"
 	"github.com/jacob-delgado/integ-testing-framework/env"
-	"github.com/jacob-delgado/integ-testing-framework/framework/config"
-	"github.com/jacob-delgado/integ-testing-framework/framework/label"
+	"github.com/jacob-delgado/integ-testing-framework/label"
 	"github.com/jacob-delgado/integ-testing-framework/log"
 )
 

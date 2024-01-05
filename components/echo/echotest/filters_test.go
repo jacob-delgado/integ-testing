@@ -21,15 +21,15 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
+	"istio.io/istio/pkg/test"
 
+	"github.com/jacob-delgado/integ-testing-framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo/echotest"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo/match"
+	"github.com/jacob-delgado/integ-testing-framework/components/namespace"
 	"github.com/jacob-delgado/integ-testing-framework/framework"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo/echotest"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo/match"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/namespace"
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
-	"github.com/jacob-delgado/integ-testing-framework/test"
+	"github.com/jacob-delgado/integ-testing-framework/resource"
 )
 
 var (

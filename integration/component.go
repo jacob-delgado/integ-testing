@@ -17,7 +17,7 @@ package integration
 import (
 	"io"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/resource"
 )
 
 var _ io.Closer = &component{}

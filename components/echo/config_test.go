@@ -19,7 +19,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/namespace"
+	"github.com/jacob-delgado/integ-testing-framework/components/namespace"
 )
 
 func TestParseConfigs(t *testing.T) {

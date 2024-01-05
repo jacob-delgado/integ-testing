@@ -21,12 +21,12 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/jacob-delgado/integ-testing-framework/components/echo"
 	echoclient "github.com/jacob-delgado/integ-testing-framework/echo"
 	"github.com/jacob-delgado/integ-testing-framework/echo/common"
 	"github.com/jacob-delgado/integ-testing-framework/echo/common/scheme"
 	"github.com/jacob-delgado/integ-testing-framework/echo/proto"
 	"github.com/jacob-delgado/integ-testing-framework/echo/server/forwarder"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
 	"github.com/jacob-delgado/integ-testing-framework/scopes"
 	"github.com/jacob-delgado/integ-testing-framework/util/retry"
 )

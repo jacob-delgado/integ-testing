@@ -20,7 +20,7 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/components/cluster"
 	"github.com/jacob-delgado/integ-testing-framework/test"
 )
 

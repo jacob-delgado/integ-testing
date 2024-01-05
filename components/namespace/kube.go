@@ -29,10 +29,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/components/cluster"
 	kube2 "github.com/jacob-delgado/integ-testing-framework/kube"
 	"github.com/jacob-delgado/integ-testing-framework/log"
+	"github.com/jacob-delgado/integ-testing-framework/resource"
 	"github.com/jacob-delgado/integ-testing-framework/scopes"
 	"github.com/jacob-delgado/integ-testing-framework/util/retry"
 	"istio.io/api/label"

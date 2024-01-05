@@ -28,10 +28,10 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/yaml"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource/config/cleanup"
+	"github.com/jacob-delgado/integ-testing-framework/components/cluster"
 	"github.com/jacob-delgado/integ-testing-framework/kube/inject"
+	"github.com/jacob-delgado/integ-testing-framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/resource/config/cleanup"
 	"github.com/jacob-delgado/integ-testing-framework/scopes"
 	"github.com/jacob-delgado/integ-testing-framework/test"
 	"github.com/jacob-delgado/integ-testing-framework/util/protomarshal"

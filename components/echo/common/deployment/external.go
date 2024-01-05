@@ -18,14 +18,14 @@ import (
 	"path"
 	"strconv"
 
+	"github.com/jacob-delgado/integ-testing-framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo/common/ports"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo/deployment"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo/match"
+	"github.com/jacob-delgado/integ-testing-framework/components/namespace"
 	"github.com/jacob-delgado/integ-testing-framework/echo/common"
 	"github.com/jacob-delgado/integ-testing-framework/env"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo/common/ports"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo/deployment"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo/match"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/namespace"
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/resource"
 	"github.com/jacob-delgado/integ-testing-framework/util/file"
 )
 

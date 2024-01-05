@@ -19,12 +19,12 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/components/cluster"
 	// imported to trigger registration
-	_ "github.com/jacob-delgado/integ-testing-framework/framework/components/cluster/kube"
+	_ "github.com/jacob-delgado/integ-testing-framework/components/cluster/kube"
 	// imported to trigger registration
-	_ "github.com/jacob-delgado/integ-testing-framework/framework/components/cluster/staticvm"
-	"github.com/jacob-delgado/integ-testing-framework/framework/config"
+	_ "github.com/jacob-delgado/integ-testing-framework/components/cluster/staticvm"
+	"github.com/jacob-delgado/integ-testing-framework/config"
 	"github.com/jacob-delgado/integ-testing-framework/scopes"
 )
 

@@ -17,10 +17,10 @@ package prometheus
 import (
 	v1 "github.com/prometheus/client_golang/api/prometheus/v1"
 	prom "github.com/prometheus/common/model"
+	"istio.io/istio/pkg/test"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
-	"github.com/jacob-delgado/integ-testing-framework/test"
+	"github.com/jacob-delgado/integ-testing-framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/resource"
 )
 
 type Instance interface {

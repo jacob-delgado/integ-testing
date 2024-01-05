@@ -19,7 +19,7 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/config"
+	"github.com/jacob-delgado/integ-testing-framework/config"
 	"istio.io/istio/pilot/test/util"
 )
 

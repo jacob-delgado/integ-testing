@@ -15,8 +15,8 @@
 package config
 
 import (
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource/config/apply"
-	"github.com/jacob-delgado/integ-testing-framework/test"
+	"github.com/jacob-delgado/integ-testing-framework/resource/config/apply"
+	"istio.io/istio/pkg/test"
 )
 
 // Plan for configuration that can be applied or deleted as an atomic unit.

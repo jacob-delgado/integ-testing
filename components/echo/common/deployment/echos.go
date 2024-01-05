@@ -23,15 +23,15 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"golang.org/x/sync/errgroup"
 
+	"github.com/jacob-delgado/integ-testing-framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo/common/ports"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo/deployment"
+	"github.com/jacob-delgado/integ-testing-framework/components/namespace"
 	"github.com/jacob-delgado/integ-testing-framework/config/constants"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo/common/ports"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo/deployment"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/namespace"
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/resource"
 	"github.com/jacob-delgado/integ-testing-framework/scopes"
-	"github.com/jacob-delgado/integ-testing-framework/test"
 	"istio.io/api/label"
+	"istio.io/istio/pkg/test"
 )
 
 // Config for new echo deployment.

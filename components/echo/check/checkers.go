@@ -24,13 +24,13 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"google.golang.org/grpc/codes"
 
+	"github.com/jacob-delgado/integ-testing-framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/components/istio"
+	"github.com/jacob-delgado/integ-testing-framework/components/istio/ingress"
 	"github.com/jacob-delgado/integ-testing-framework/config/protocol"
 	echoClient "github.com/jacob-delgado/integ-testing-framework/echo"
 	"github.com/jacob-delgado/integ-testing-framework/framework"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/istio"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/istio/ingress"
 	"github.com/jacob-delgado/integ-testing-framework/util/istiomultierror"
 )
 

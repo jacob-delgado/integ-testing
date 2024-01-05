@@ -23,12 +23,12 @@ import (
 	"github.com/mitchellh/copystructure"
 	"gopkg.in/yaml.v3"
 
+	"github.com/jacob-delgado/integ-testing-framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/components/namespace"
 	"github.com/jacob-delgado/integ-testing-framework/config/constants"
 	"github.com/jacob-delgado/integ-testing-framework/config/protocol"
 	"github.com/jacob-delgado/integ-testing-framework/echo/common"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/namespace"
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/resource"
 )
 
 // Cluster that can deploy echo instances.

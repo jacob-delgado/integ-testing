@@ -21,7 +21,7 @@ import (
 
 	"k8s.io/client-go/rest"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/components/cluster"
 	istioKube "github.com/jacob-delgado/integ-testing-framework/kube"
 	"github.com/jacob-delgado/integ-testing-framework/util/file"
 )

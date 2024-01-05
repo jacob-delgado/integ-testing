@@ -19,8 +19,8 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
+	"github.com/jacob-delgado/integ-testing-framework/components/echo"
 	"github.com/jacob-delgado/integ-testing-framework/config/constants"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
 	"istio.io/api/annotation"
 )
 

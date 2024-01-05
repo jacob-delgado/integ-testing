@@ -15,7 +15,7 @@
 package echo
 
 import (
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/resource"
 )
 
 // Instance is a component that provides access to a deployed echo service.

@@ -15,8 +15,8 @@
 package config
 
 import (
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo/config/param"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/namespace"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo/config/param"
+	"github.com/jacob-delgado/integ-testing-framework/components/namespace"
 )
 
 // Sources provides common operations that can be performed on a list of Source objects.

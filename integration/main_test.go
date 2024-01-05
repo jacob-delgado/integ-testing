@@ -18,7 +18,7 @@ import (
 	"testing"
 
 	"github.com/jacob-delgado/integ-testing-framework/framework"
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/resource"
 )
 
 func TestMain(m *testing.M) {

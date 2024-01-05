@@ -14,7 +14,7 @@
 
 package resource
 
-import "github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
+import "github.com/jacob-delgado/integ-testing-framework/components/cluster"
 
 // EnvironmentFactory creates an Environment.
 type EnvironmentFactory func(ctx Context) (Environment, error)

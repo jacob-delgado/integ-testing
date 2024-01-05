@@ -21,7 +21,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo"
 	"github.com/jacob-delgado/integ-testing-framework/kube"
 	"github.com/jacob-delgado/integ-testing-framework/kube/controllers"
 	"github.com/jacob-delgado/integ-testing-framework/queue"

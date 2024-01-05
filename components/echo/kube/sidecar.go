@@ -26,9 +26,9 @@ import (
 	corev1 "k8s.io/api/core/v1"
 
 	// Import all XDS config types
+	"github.com/jacob-delgado/integ-testing-framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/components/echo"
 	_ "github.com/jacob-delgado/integ-testing-framework/config/xds"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/echo"
 	"github.com/jacob-delgado/integ-testing-framework/test"
 	"github.com/jacob-delgado/integ-testing-framework/util/protomarshal"
 	"github.com/jacob-delgado/integ-testing-framework/util/retry"

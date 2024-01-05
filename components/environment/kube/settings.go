@@ -19,8 +19,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
-	"github.com/jacob-delgado/integ-testing-framework/framework/config"
+	"github.com/jacob-delgado/integ-testing-framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/config"
 	istioKube "github.com/jacob-delgado/integ-testing-framework/kube"
 	"github.com/jacob-delgado/integ-testing-framework/scopes"
 )

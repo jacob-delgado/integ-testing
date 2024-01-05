@@ -15,7 +15,7 @@
 package cluster
 
 import (
-	"github.com/jacob-delgado/integ-testing-framework/framework/config"
+	"github.com/jacob-delgado/integ-testing-framework/config"
 )
 
 type Kind string

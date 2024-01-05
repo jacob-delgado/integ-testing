@@ -17,9 +17,9 @@ package namespace
 import (
 	"time"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/resource"
 	"github.com/jacob-delgado/integ-testing-framework/scopes"
-	"github.com/jacob-delgado/integ-testing-framework/test"
+	"istio.io/istio/pkg/test"
 )
 
 // Config contains configuration information about the namespace instance

@@ -23,7 +23,7 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/resource"
 	"github.com/jacob-delgado/integ-testing-framework/scopes"
 )
 

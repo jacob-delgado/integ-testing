@@ -17,9 +17,9 @@ package kube
 import (
 	"fmt"
 
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster"
-	"github.com/jacob-delgado/integ-testing-framework/framework/components/cluster/clusterboot"
-	"github.com/jacob-delgado/integ-testing-framework/framework/resource"
+	"github.com/jacob-delgado/integ-testing-framework/components/cluster"
+	"github.com/jacob-delgado/integ-testing-framework/components/cluster/clusterboot"
+	"github.com/jacob-delgado/integ-testing-framework/resource"
 )
 
 var _ resource.Environment = FakeEnvironment{}
