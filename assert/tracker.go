@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/jacob-delgado/integ-testing-framework/retry"
 	"github.com/jacob-delgado/integ-testing-framework/test"
-	"github.com/jacob-delgado/integ-testing-framework/util/retry"
 )
 
 type Tracker[T comparable] struct {

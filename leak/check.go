@@ -27,8 +27,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/jacob-delgado/integ-testing-framework/test"
 	"go.uber.org/atomic"
-	"istio.io/istio/pkg/test"
 
 	"github.com/jacob-delgado/integ-testing-framework/log"
 	"github.com/jacob-delgado/integ-testing-framework/util/retry"

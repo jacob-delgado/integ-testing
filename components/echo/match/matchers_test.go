@@ -23,7 +23,7 @@ import (
 	"github.com/jacob-delgado/integ-testing-framework/components/echo/match"
 	"github.com/jacob-delgado/integ-testing-framework/components/namespace"
 	"github.com/jacob-delgado/integ-testing-framework/resource"
-	"istio.io/istio/pkg/test"
+	"github.com/jacob-delgado/integ-testing-framework/test"
 )
 
 var (

@@ -19,7 +19,7 @@ import (
 
 	"github.com/jacob-delgado/integ-testing-framework/resource"
 	"github.com/jacob-delgado/integ-testing-framework/scopes"
-	"istio.io/istio/pkg/test"
+	"github.com/jacob-delgado/integ-testing-framework/test"
 )
 
 // Config contains configuration information about the namespace instance

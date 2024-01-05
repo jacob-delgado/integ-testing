@@ -23,7 +23,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/hashicorp/go-multierror"
-	"istio.io/istio/pkg/test"
+	"github.com/jacob-delgado/integ-testing-framework/test"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
 	"github.com/jacob-delgado/integ-testing-framework/components/ambient"

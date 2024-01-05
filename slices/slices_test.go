@@ -21,9 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"util/assert"
-
-	"istio.io/istio/tests/util/leak"
+	"github.com/jacob-delgado/integ-testing-framework/assert"
+	"github.com/jacob-delgado/integ-testing-framework/leak"
 )
 
 func TestDelete(t *testing.T) {

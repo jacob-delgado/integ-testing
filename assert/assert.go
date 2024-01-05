@@ -25,8 +25,8 @@ import (
 	"google.golang.org/protobuf/testing/protocmp"
 
 	"github.com/jacob-delgado/integ-testing-framework/ptr"
+	"github.com/jacob-delgado/integ-testing-framework/retry"
 	"github.com/jacob-delgado/integ-testing-framework/test"
-	"github.com/jacob-delgado/integ-testing-framework/util/retry"
 )
 
 var compareErrors = cmp.Comparer(func(x, y error) bool {

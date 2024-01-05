@@ -30,8 +30,8 @@ import (
 	"github.com/jacob-delgado/integ-testing-framework/config/constants"
 	"github.com/jacob-delgado/integ-testing-framework/resource"
 	"github.com/jacob-delgado/integ-testing-framework/scopes"
+	"github.com/jacob-delgado/integ-testing-framework/test"
 	"istio.io/api/label"
-	"istio.io/istio/pkg/test"
 )
 
 // Config for new echo deployment.

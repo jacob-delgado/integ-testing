@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"istio.io/istio/pkg/test"
+	"github.com/jacob-delgado/integ-testing-framework/test"
 
 	"github.com/jacob-delgado/integ-testing-framework/components/cluster"
 	"github.com/jacob-delgado/integ-testing-framework/components/echo"

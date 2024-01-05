@@ -21,8 +21,8 @@ import (
 	"strings"
 
 	"github.com/google/uuid"
+	"github.com/jacob-delgado/integ-testing-framework/test"
 	"gopkg.in/yaml.v3"
-	"istio.io/istio/pkg/test"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 
 	"github.com/jacob-delgado/integ-testing-framework/label"
