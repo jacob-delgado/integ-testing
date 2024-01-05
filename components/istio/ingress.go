@@ -26,16 +26,16 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 
 	"istio.io/istio/pkg/http/headers"
-	
-	"echo/common/scheme"
-	"components/cluster"
-	"components/echo"
-	"components/echo/common"
-	"components/environment/kube"
-	"components/istio/ingress"
-	"resource"
-	"scopes"
-	"util/retry"
+	"istio.io/istio/pkg/test"
+	"istio.io/istio/pkg/test/echo/common/scheme"
+	"istio.io/istio/pkg/test/framework/components/cluster"
+	"istio.io/istio/pkg/test/framework/components/echo"
+	"istio.io/istio/pkg/test/framework/components/echo/common"
+	"istio.io/istio/pkg/test/framework/components/environment/kube"
+	"istio.io/istio/pkg/test/framework/components/istio/ingress"
+	"istio.io/istio/pkg/test/framework/resource"
+	"istio.io/istio/pkg/test/scopes"
+	"istio.io/istio/pkg/test/util/retry"
 )
 
 const (

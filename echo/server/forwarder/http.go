@@ -32,9 +32,9 @@ import (
 	"golang.org/x/net/http2"
 
 	"istio.io/istio/pkg/hbone"
-	"echo"
-	"echo/common/scheme"
-	"echo/proto"
+	"istio.io/istio/pkg/test/echo"
+	"istio.io/istio/pkg/test/echo/common/scheme"
+	"istio.io/istio/pkg/test/echo/proto"
 )
 
 var _ protocol = &httpProtocol{}

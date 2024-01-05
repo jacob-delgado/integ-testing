@@ -19,7 +19,7 @@ package forwarder
 import (
 	"context"
 
-	"echo/proto"
+	"istio.io/istio/pkg/test/echo/proto"
 )
 
 type protocol interface {

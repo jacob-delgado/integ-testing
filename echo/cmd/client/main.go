@@ -30,10 +30,10 @@ import (
 	wrappers "google.golang.org/protobuf/types/known/wrapperspb"
 
 	"istio.io/istio/pkg/cmd"
-	"log"
-	"echo/common"
-	"echo/proto"
-	"echo/server/forwarder"
+	"istio.io/istio/pkg/log"
+	"istio.io/istio/pkg/test/echo/common"
+	"istio.io/istio/pkg/test/echo/proto"
+	"istio.io/istio/pkg/test/echo/server/forwarder"
 )
 
 var (

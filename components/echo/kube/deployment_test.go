@@ -18,12 +18,12 @@ import (
 
 	testutil "istio.io/istio/pilot/test/util"
 	"istio.io/istio/pkg/config/protocol"
-	"components/cluster"
-	"components/cluster/clusterboot"
-	"components/echo"
-	"components/namespace"
-	"config"
-	"resource"
+	"istio.io/istio/pkg/test/framework/components/cluster"
+	"istio.io/istio/pkg/test/framework/components/cluster/clusterboot"
+	"istio.io/istio/pkg/test/framework/components/echo"
+	"istio.io/istio/pkg/test/framework/components/namespace"
+	"istio.io/istio/pkg/test/framework/config"
+	"istio.io/istio/pkg/test/framework/resource"
 )
 
 func TestDeploymentYAML(t *testing.T) {

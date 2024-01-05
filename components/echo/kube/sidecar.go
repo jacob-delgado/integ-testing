@@ -27,10 +27,10 @@ import (
 
 	// Import all XDS config types
 	_ "istio.io/istio/pkg/config/xds"
-	
-	"components/cluster"
-	"components/echo"
-	"util/retry"
+	"istio.io/istio/pkg/test"
+	"istio.io/istio/pkg/test/framework/components/cluster"
+	"istio.io/istio/pkg/test/framework/components/echo"
+	"istio.io/istio/pkg/test/util/retry"
 	"istio.io/istio/pkg/util/protomarshal"
 )
 

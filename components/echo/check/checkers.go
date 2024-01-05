@@ -25,12 +25,12 @@ import (
 	"google.golang.org/grpc/codes"
 
 	"istio.io/istio/pkg/config/protocol"
-	echoClient "echo"
-	"framework"
-	"components/cluster"
-	"components/echo"
-	"components/istio"
-	"components/istio/ingress"
+	echoClient "istio.io/istio/pkg/test/echo"
+	"istio.io/istio/pkg/test/framework"
+	"istio.io/istio/pkg/test/framework/components/cluster"
+	"istio.io/istio/pkg/test/framework/components/echo"
+	"istio.io/istio/pkg/test/framework/components/istio"
+	"istio.io/istio/pkg/test/framework/components/istio/ingress"
 	"istio.io/istio/pkg/util/istiomultierror"
 )
 

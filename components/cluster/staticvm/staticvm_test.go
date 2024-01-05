@@ -20,9 +20,9 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"gopkg.in/yaml.v3"
 
-	"components/cluster"
-	"components/echo"
-	"components/namespace"
+	"istio.io/istio/pkg/test/framework/components/cluster"
+	"istio.io/istio/pkg/test/framework/components/echo"
+	"istio.io/istio/pkg/test/framework/components/namespace"
 )
 
 func TestBuild(t *testing.T) {

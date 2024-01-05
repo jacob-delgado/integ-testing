@@ -24,16 +24,17 @@ import (
 	"golang.org/x/sync/errgroup"
 	"istio.io/istio/pkg/test"
 
-	"components/cluster"
-	"components/istioctl"
-	"resource"
-	"resource/config"
-	"resource/config/apply"
-	"resource/config/cleanup"
-	"scopes"
-	"util/file"
-	"util/tmpl"
-	"util/yml"
+	"istio.io/istio/pkg/test"
+	"istio.io/istio/pkg/test/framework/components/cluster"
+	"istio.io/istio/pkg/test/framework/components/istioctl"
+	"istio.io/istio/pkg/test/framework/resource"
+	"istio.io/istio/pkg/test/framework/resource/config"
+	"istio.io/istio/pkg/test/framework/resource/config/apply"
+	"istio.io/istio/pkg/test/framework/resource/config/cleanup"
+	"istio.io/istio/pkg/test/scopes"
+	"istio.io/istio/pkg/test/util/file"
+	"istio.io/istio/pkg/test/util/tmpl"
+	"istio.io/istio/pkg/test/util/yml"
 )
 
 var _ config.Factory = &configFactory{}

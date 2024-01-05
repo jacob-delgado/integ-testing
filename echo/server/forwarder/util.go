@@ -28,10 +28,10 @@ import (
 	"golang.org/x/net/proxy"
 
 	"istio.io/istio/pkg/hbone"
-	"log"
-	"echo"
-	"echo/common"
-	"echo/proto"
+	"istio.io/istio/pkg/log"
+	"istio.io/istio/pkg/test/echo"
+	"istio.io/istio/pkg/test/echo/common"
+	"istio.io/istio/pkg/test/echo/proto"
 )
 
 const (

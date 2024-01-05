@@ -23,8 +23,8 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"resource"
-	"scopes"
+	"istio.io/istio/pkg/test/framework/resource"
+	"istio.io/istio/pkg/test/scopes"
 )
 
 // scope hold resources in a particular scope.

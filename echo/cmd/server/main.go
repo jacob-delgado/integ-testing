@@ -26,9 +26,9 @@ import (
 
 	"istio.io/istio/pkg/cmd"
 	"istio.io/istio/pkg/config/protocol"
-	"log"
-	"echo/common"
-	"echo/server"
+	"istio.io/istio/pkg/log"
+	"istio.io/istio/pkg/test/echo/common"
+	"istio.io/istio/pkg/test/echo/server"
 )
 
 var (

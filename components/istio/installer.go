@@ -29,11 +29,11 @@ import (
 	"istio.io/istio/operator/cmd/mesh"
 	"istio.io/istio/operator/pkg/util/clog"
 	"istio.io/istio/pkg/kube"
-	"log"
+	"istio.io/istio/pkg/log"
 	testenv "istio.io/istio/pkg/test/env"
-	"components/cluster"
-	"resource"
-	"scopes"
+	"istio.io/istio/pkg/test/framework/components/cluster"
+	"istio.io/istio/pkg/test/framework/resource"
+	"istio.io/istio/pkg/test/scopes"
 )
 
 var _ resource.Dumper = &installer{}

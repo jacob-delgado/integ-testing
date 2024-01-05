@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"time"
 
-	"log"
+	"istio.io/istio/pkg/log"
 )
 
 var epLog = log.RegisterScope("endpoint", "echo serverside")

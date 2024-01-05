@@ -14,7 +14,7 @@
 
 package resource
 
-import "components/cluster"
+import "istio.io/istio/pkg/test/framework/components/cluster"
 
 // EnvironmentFactory creates an Environment.
 type EnvironmentFactory func(ctx Context) (Environment, error)

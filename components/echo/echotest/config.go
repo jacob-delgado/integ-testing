@@ -15,7 +15,7 @@
 package echotest
 
 import (
-	"components/echo/config"
+	"istio.io/istio/pkg/test/framework/components/echo/config"
 )
 
 // Config adds a configuration source that will be applied during the run of this tester.

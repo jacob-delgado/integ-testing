@@ -15,7 +15,7 @@
 package main
 
 import (
-	"tools/featuresgen/cmd"
+	"istio.io/istio/pkg/test/framework/tools/featuresgen/cmd"
 )
 
 func main() {

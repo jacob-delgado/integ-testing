@@ -22,11 +22,11 @@ import (
 
 	traceapi "go.opentelemetry.io/otel/trace"
 
-	"log"
-	"features"
-	"label"
-	"resource"
-	"scopes"
+	"istio.io/istio/pkg/log"
+	"istio.io/istio/pkg/test/framework/features"
+	"istio.io/istio/pkg/test/framework/label"
+	"istio.io/istio/pkg/test/framework/resource"
+	"istio.io/istio/pkg/test/scopes"
 	"istio.io/istio/pkg/tracing"
 )
 

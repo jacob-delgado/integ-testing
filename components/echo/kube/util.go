@@ -21,7 +21,7 @@ import (
 
 	"istio.io/api/annotation"
 	"istio.io/istio/pkg/config/constants"
-	"components/echo"
+	"istio.io/istio/pkg/test/framework/components/echo"
 )
 
 type podSelector struct {

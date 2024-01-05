@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"framework"
+	"istio.io/istio/pkg/test/framework"
 )
 
 func TestSynchronous(t *testing.T) {

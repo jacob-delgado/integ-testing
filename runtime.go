@@ -17,8 +17,8 @@ package integtestingframework
 import (
 	"testing"
 
-	"label"
-	"resource"
+	"istio.io/istio/pkg/test/framework/label"
+	"istio.io/istio/pkg/test/framework/resource"
 )
 
 var _ resource.Dumper = &runtime{}

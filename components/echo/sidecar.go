@@ -17,8 +17,8 @@ package echo
 import (
 	admin "github.com/envoyproxy/go-control-plane/envoy/admin/v3"
 
-	
-	"util/retry"
+	"istio.io/istio/pkg/test"
+	"istio.io/istio/pkg/test/util/retry"
 )
 
 // Sidecar provides an interface to execute queries against a single Envoy sidecar.

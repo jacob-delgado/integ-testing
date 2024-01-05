@@ -26,14 +26,14 @@ import (
 	"go.uber.org/atomic"
 	"sigs.k8s.io/yaml"
 
-	"components/cluster"
-	"features"
-	"label"
-	"resource"
-	"resource/config"
-	"resource/config/cleanup"
-	"scopes"
-	"util/yml"
+	"istio.io/istio/pkg/test/framework/components/cluster"
+	"istio.io/istio/pkg/test/framework/features"
+	"istio.io/istio/pkg/test/framework/label"
+	"istio.io/istio/pkg/test/framework/resource"
+	"istio.io/istio/pkg/test/framework/resource/config"
+	"istio.io/istio/pkg/test/framework/resource/config/cleanup"
+	"istio.io/istio/pkg/test/scopes"
+	"istio.io/istio/pkg/test/util/yml"
 	"istio.io/istio/pkg/util/sets"
 )
 

@@ -17,7 +17,7 @@ package config
 import (
 	"fmt"
 
-	"scopes"
+	"istio.io/istio/pkg/test/scopes"
 )
 
 type Map map[string]any

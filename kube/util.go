@@ -27,9 +27,9 @@ import (
 
 	istioKube "istio.io/istio/pkg/kube"
 	"istio.io/istio/pkg/slices"
-	
-	"scopes"
-	"util/retry"
+	"istio.io/istio/pkg/test"
+	"istio.io/istio/pkg/test/scopes"
+	"istio.io/istio/pkg/test/util/retry"
 )
 
 var (

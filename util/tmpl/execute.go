@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"text/template"
 
-	
+	"istio.io/istio/pkg/test"
 )
 
 // Execute the template with the given parameters.

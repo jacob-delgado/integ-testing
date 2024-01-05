@@ -17,7 +17,7 @@ package integration
 import (
 	"io"
 
-	"resource"
+	"istio.io/istio/pkg/test/framework/resource"
 )
 
 var _ io.Closer = &component{}

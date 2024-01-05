@@ -27,9 +27,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"echo"
-	"echo/common"
-	"util/retry"
+	"istio.io/istio/pkg/test/echo"
+	"istio.io/istio/pkg/test/echo/common"
+	"istio.io/istio/pkg/test/util/retry"
 )
 
 var _ Instance = &tcpInstance{}

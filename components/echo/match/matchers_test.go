@@ -18,12 +18,12 @@ import (
 	"strconv"
 	"testing"
 
-	
-	"components/cluster"
-	"components/echo"
-	"components/echo/match"
-	"components/namespace"
-	"resource"
+	"istio.io/istio/pkg/test"
+	"istio.io/istio/pkg/test/framework/components/cluster"
+	"istio.io/istio/pkg/test/framework/components/echo"
+	"istio.io/istio/pkg/test/framework/components/echo/match"
+	"istio.io/istio/pkg/test/framework/components/namespace"
+	"istio.io/istio/pkg/test/framework/resource"
 )
 
 var (

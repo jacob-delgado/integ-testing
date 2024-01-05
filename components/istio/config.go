@@ -23,11 +23,11 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
-	
+	"istio.io/istio/pkg/test"
 	"istio.io/istio/pkg/test/env"
-	"components/namespace"
-	"resource"
-	"scopes"
+	"istio.io/istio/pkg/test/framework/components/namespace"
+	"istio.io/istio/pkg/test/framework/resource"
+	"istio.io/istio/pkg/test/scopes"
 )
 
 const (

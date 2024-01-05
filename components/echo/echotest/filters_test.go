@@ -22,14 +22,14 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	
-	"framework"
-	"components/cluster"
-	"components/echo"
-	"components/echo/echotest"
-	"components/echo/match"
-	"components/namespace"
-	"resource"
+	"istio.io/istio/pkg/test"
+	"istio.io/istio/pkg/test/framework"
+	"istio.io/istio/pkg/test/framework/components/cluster"
+	"istio.io/istio/pkg/test/framework/components/echo"
+	"istio.io/istio/pkg/test/framework/components/echo/echotest"
+	"istio.io/istio/pkg/test/framework/components/echo/match"
+	"istio.io/istio/pkg/test/framework/components/namespace"
+	"istio.io/istio/pkg/test/framework/resource"
 )
 
 var (

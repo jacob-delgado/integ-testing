@@ -33,9 +33,9 @@ import (
 	"golang.org/x/net/http2"
 
 	"istio.io/istio/pkg/h2c"
-	"echo"
-	"echo/common"
-	"util/retry"
+	"istio.io/istio/pkg/test/echo"
+	"istio.io/istio/pkg/test/echo/common"
+	"istio.io/istio/pkg/test/util/retry"
 )
 
 const (

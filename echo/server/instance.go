@@ -29,10 +29,10 @@ import (
 
 	"istio.io/istio/pilot/pkg/util/network"
 	"istio.io/istio/pkg/config/protocol"
-	"log"
+	"istio.io/istio/pkg/log"
 	"istio.io/istio/pkg/monitoring"
-	"echo/common"
-	"echo/server/endpoint"
+	"istio.io/istio/pkg/test/echo/common"
+	"istio.io/istio/pkg/test/echo/server/endpoint"
 )
 
 // Config for an echo server Instance.

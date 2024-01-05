@@ -15,8 +15,8 @@
 package echo
 
 import (
-	
-	"echo"
+	"istio.io/istio/pkg/test"
+	"istio.io/istio/pkg/test/echo"
 )
 
 // CallResult the result of a call operation.

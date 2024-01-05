@@ -25,10 +25,10 @@ import (
 
 	"istio.io/istio/pkg/config/constants"
 	"istio.io/istio/pkg/config/protocol"
-	"echo/common"
-	"components/cluster"
-	"components/namespace"
-	"resource"
+	"istio.io/istio/pkg/test/echo/common"
+	"istio.io/istio/pkg/test/framework/components/cluster"
+	"istio.io/istio/pkg/test/framework/components/namespace"
+	"istio.io/istio/pkg/test/framework/resource"
 )
 
 // Cluster that can deploy echo instances.

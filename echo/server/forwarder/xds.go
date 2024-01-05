@@ -23,8 +23,8 @@ import (
 	"google.golang.org/grpc/credentials/xds"
 	xdsresolver "google.golang.org/grpc/xds"
 
-	"echo/common"
-	"echo/proto"
+	"istio.io/istio/pkg/test/echo/common"
+	"istio.io/istio/pkg/test/echo/proto"
 )
 
 var _ protocol = &grpcProtocol{}

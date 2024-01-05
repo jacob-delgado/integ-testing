@@ -17,13 +17,13 @@ package deployment
 import (
 	"fmt"
 
-	"components/echo"
-	"components/echo/deployment"
-	"components/echo/match"
-	"components/namespace"
-	"resource"
-	"resource/config"
-	"resource/config/apply"
+	"istio.io/istio/pkg/test/framework/components/echo"
+	"istio.io/istio/pkg/test/framework/components/echo/deployment"
+	"istio.io/istio/pkg/test/framework/components/echo/match"
+	"istio.io/istio/pkg/test/framework/components/namespace"
+	"istio.io/istio/pkg/test/framework/resource"
+	"istio.io/istio/pkg/test/framework/resource/config"
+	"istio.io/istio/pkg/test/framework/resource/config/apply"
 )
 
 const (

@@ -31,12 +31,12 @@ import (
 
 	istioKube "istio.io/istio/pkg/kube"
 	"istio.io/istio/pkg/test/env"
-	"components/cluster"
-	"components/istio"
-	"resource"
-	"resource/config/apply"
-	testKube "kube"
-	"scopes"
+	"istio.io/istio/pkg/test/framework/components/cluster"
+	"istio.io/istio/pkg/test/framework/components/istio"
+	"istio.io/istio/pkg/test/framework/resource"
+	"istio.io/istio/pkg/test/framework/resource/config/apply"
+	testKube "istio.io/istio/pkg/test/kube"
+	"istio.io/istio/pkg/test/scopes"
 )
 
 const (

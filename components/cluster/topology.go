@@ -19,7 +19,7 @@ import (
 	"fmt"
 
 	"istio.io/istio/pkg/kube"
-	"config"
+	"istio.io/istio/pkg/test/framework/config"
 )
 
 // Map can be given as a shared reference to multiple Topology/Cluster implementations.

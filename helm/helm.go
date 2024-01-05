@@ -19,8 +19,8 @@ import (
 	"strings"
 	"time"
 
-	"scopes"
-	"shell"
+	"istio.io/istio/pkg/test/scopes"
+	"istio.io/istio/pkg/test/shell"
 )
 
 // Helm allows clients to interact with helm commands in their cluster

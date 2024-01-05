@@ -22,8 +22,8 @@ import (
 	"k8s.io/client-go/rest"
 
 	istioKube "istio.io/istio/pkg/kube"
-	"components/cluster"
-	"util/file"
+	"istio.io/istio/pkg/test/framework/components/cluster"
+	"istio.io/istio/pkg/test/util/file"
 )
 
 const (

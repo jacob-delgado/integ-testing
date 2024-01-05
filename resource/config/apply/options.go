@@ -14,7 +14,7 @@
 
 package apply
 
-import "resource/config/cleanup"
+import "istio.io/istio/pkg/test/framework/resource/config/cleanup"
 
 // Options provide options for applying configuration
 type Options struct {

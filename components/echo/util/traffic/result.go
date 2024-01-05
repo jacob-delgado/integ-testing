@@ -20,8 +20,8 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	
-	"components/echo"
+	"istio.io/istio/pkg/test"
+	"istio.io/istio/pkg/test/framework/components/echo"
 )
 
 // Result of a traffic generation operation.

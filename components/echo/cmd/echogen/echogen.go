@@ -23,13 +23,13 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"components/cluster"
-	"components/echo"
-	"components/echo/common/ports"
-	"components/echo/kube"
-	"config"
-	"resource"
-	"util/yml"
+	"istio.io/istio/pkg/test/framework/components/cluster"
+	"istio.io/istio/pkg/test/framework/components/echo"
+	"istio.io/istio/pkg/test/framework/components/echo/common/ports"
+	"istio.io/istio/pkg/test/framework/components/echo/kube"
+	"istio.io/istio/pkg/test/framework/config"
+	"istio.io/istio/pkg/test/framework/resource"
+	"istio.io/istio/pkg/test/util/yml"
 )
 
 var (

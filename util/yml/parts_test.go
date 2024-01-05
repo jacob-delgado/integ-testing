@@ -19,7 +19,7 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"util/yml"
+	"istio.io/istio/pkg/test/util/yml"
 )
 
 func TestEmptyDoc(t *testing.T) {

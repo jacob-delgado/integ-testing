@@ -24,12 +24,12 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
 	"istio.io/istio/pkg/config/protocol"
-	
-	echoClient "echo"
-	"components/cluster"
-	"components/echo"
-	"components/echo/common"
-	"resource"
+	"istio.io/istio/pkg/test"
+	echoClient "istio.io/istio/pkg/test/echo"
+	"istio.io/istio/pkg/test/framework/components/cluster"
+	"istio.io/istio/pkg/test/framework/components/echo"
+	"istio.io/istio/pkg/test/framework/components/echo/common"
+	"istio.io/istio/pkg/test/framework/resource"
 )
 
 var _ echo.Instance = &instance{}

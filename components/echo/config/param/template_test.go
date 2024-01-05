@@ -19,8 +19,8 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"components/echo/config/param"
-	"util/tmpl"
+	"istio.io/istio/pkg/test/framework/components/echo/config/param"
+	"istio.io/istio/pkg/test/util/tmpl"
 )
 
 func TestContains(t *testing.T) {
